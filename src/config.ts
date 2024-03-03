@@ -6,7 +6,7 @@ export const SITE: Site = {
   desc: "Software Engineer, Travel and Life Hack",
   title: "Phawin ",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: false,
+  lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
