@@ -1,19 +1,19 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "https://phawin.net/", // replace this with your deployed domain
+  author: "Phawin Khongkhasawan",
+  desc: "Software Engineer, Travel and Life Hack",
+  title: "Phawin ",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  langTag: ["en-EN", "en-TH"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {
@@ -26,39 +26,27 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/lifez",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.facebook.com/lifez/",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
   {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
-  {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/phawin-khongkhasawan-44947462/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
-  },
-  {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    href: "https://x.com/lifez",
+    linkTitle: `${SITE.title} on X (Twitter)`,
+    active: true,
   },
   {
     name: "Twitch",
