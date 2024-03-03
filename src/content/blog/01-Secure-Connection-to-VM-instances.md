@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Phawin
 pubDatetime: 2024-03-03T03:55:00Z
 title: SSH เข้าเครื่อง VM บน GCP อย่างปลอดภัย ด้วย Identity-Aware Proxy
 slug: securely-ssh-into-vm-on-gcp
@@ -26,7 +26,7 @@ description: ในยุคสมัยนี้ใครๆก็ใช้ง�
 2. Identity-Aware Proxy's TCP forwarding <-- วันนี้เราจะมาใช้วิธีนี้กัน
 3. [The metadata server](https://cloud.google.com/firewall/docs/firewalls#gcp-metadata-server)
 4. Google Cloud SDK
-5. (Managed VPN gateway)[https://cloud.google.com/solutions/connecting-securely#vpn]
+5. [Managed VPN gateway](https://cloud.google.com/solutions/connecting-securely#vpn)
 
 ## Identity-Aware Proxy
 
