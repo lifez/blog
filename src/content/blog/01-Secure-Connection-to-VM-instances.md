@@ -3,7 +3,7 @@ author: Phawin
 pubDatetime: 2024-03-03T03:55:00Z
 title: SSH เข้าเครื่อง VM บน GCP อย่างปลอดภัย ด้วย Identity-Aware Proxy
 slug: securely-ssh-into-vm-on-gcp
-ogImage: ../../assets/images/01/done.png
+ogImage: ../../assets/images/01/feature.png
 featured: true
 draft: false
 tags:
@@ -12,6 +12,8 @@ tags:
   - security
 description: ในยุคสมัยนี้ใครๆก็ใช้งาน VM บน Cloud การ SSH เข้าไปในนั้นเพื่อทำงานต่างๆจึงเป็นสิ่งที่หลีกเลี่ยงไม่ได้ บทความนี้นำเสนอวิธีเพิ่มความปลอดภัยในการใช้งาน VM Instance ของคุณ
 ---
+
+![Feature](@assets/images/01/feature.png)
 
 ## Table of contents
 
