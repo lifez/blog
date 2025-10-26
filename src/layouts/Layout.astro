@@ -73,6 +73,9 @@ const structuredData = {
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
 
+    <link rel="stylesheet" href="/src/scripts/cookieconsent/cookieconsent.css" />
+
+
     <!-- Article Published/Modified time -->
     {
       pubDatetime && (
@@ -131,8 +134,25 @@ const structuredData = {
     <ClientRouter />
 
     <script is:inline src="/toggle-theme.js"></script>
+        <script
+      data-category="analytics"
+      is:inline
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-NCYCY0S42L"
+    ></script>
+
+    <script data-category="analytics" is:inline type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NCYCY0S42L");
+    </script>
   </head>
   <body>
+    <script type="module" src="/src/scripts/cookieconsent/config.js"></script>
     <slot />
   </body>
 </html>
